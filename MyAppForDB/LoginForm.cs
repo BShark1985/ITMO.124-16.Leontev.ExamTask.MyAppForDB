@@ -23,8 +23,8 @@ namespace MyAppForDB
 
         public void buttonEnter_Click(object sender, EventArgs e)
         {
-            var loginUser = textBoxLogin.Text;
-            var passUser = textBoxPassword.Text;
+            var loginUser = textBoxLogin.Text;       // login: admin
+            var passUser = textBoxPassword.Text;     // password: admin
 
             SqlDataAdapter adapter = new SqlDataAdapter();
             DataTable table = new DataTable();
